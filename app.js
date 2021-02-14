@@ -137,7 +137,7 @@ searchBtn.addEventListener('click', function () {
 
 sliderBtn.addEventListener('click', function () {
   const duration = document.getElementById('duration').value || 1000;
-  if (duration < 0) {
+  if (duration < 1000) {
     alert('Please input your changing duration on right way!![Hints:- Negative value is not  allowed as timer!]');
   } else {
     createSlider();
